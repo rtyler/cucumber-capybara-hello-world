@@ -9,5 +9,5 @@ Then /^I should be elated with results$/ do
   # reasonable elation for the user.
   #
   # This is really just a trite example
-  page.should have_content('THIS TEST DOES NOT EXIST')
+  page.should have_content('Download Jenkins')
 end
