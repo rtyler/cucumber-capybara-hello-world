@@ -5,5 +5,9 @@ When /^I visit the home page$/ do
 end
 
 Then /^I should be elated with results$/ do
-  pending # express the regexp above with the code you wish you had
+  # We'll say that being told I can "Download Jenkins" is enough to cause
+  # reasonable elation for the user.
+  #
+  # This is really just a trite example
+  page.should have_content('THIS TEST DOES NOT EXIST')
 end
